@@ -1,4 +1,4 @@
 [Settings]
 [[redirects]]
-  from = "/summer-school/*"
-  to = "/:splat"
+  from = "/"
+  to = "/summer-school"
