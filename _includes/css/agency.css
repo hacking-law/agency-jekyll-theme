@@ -10,6 +10,11 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
