@@ -690,6 +690,10 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+@media(max-width:768px) {
+    background-size: auto 100%;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
