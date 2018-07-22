@@ -363,6 +363,12 @@ section h3.section-subheading {
     line-height: 1.7em;
 }
 
+@media(max-width:768px) {
+    section {
+        width: 105%;
+    }
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
