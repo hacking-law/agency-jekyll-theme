@@ -235,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(max-width:768px) {
-    .navbar .logo {
+    .navbar {
         display: none;
     }
 }
