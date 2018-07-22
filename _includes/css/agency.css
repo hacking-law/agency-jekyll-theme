@@ -251,6 +251,11 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
 
+    .navbar-default .navbar-brand .logo {
+        position: relative;
+        top: -2em;
+    }
+
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
@@ -259,17 +264,13 @@ fieldset[disabled] .btn-xl.active {
         padding: 10px 0;
         background-color: #222;
     }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/ltc/bundestag.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -281,6 +282,10 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+header .intro-text .btn:hover {
+    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .5);
 }
 
 header .intro-text .intro-lead-in {
@@ -312,6 +317,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        text-shadow: 1px 1px #000;
     }
 
     header .intro-text .intro-heading {
@@ -321,6 +327,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        text-shadow: 1px 1px #000;
     }
 }
 
@@ -341,6 +348,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    line-height: 1.7em;
 }
 
 @media(min-width:768px) {
@@ -658,7 +666,8 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/ltc/cup.jpg');
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
 }

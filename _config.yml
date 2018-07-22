@@ -3,22 +3,13 @@ baseurl: /summer-school
 destination: _site/summer-school
 
 # Site settings
-title: Summer School
+title: Legal Tech Center
 email: edu@legaltech.center?subject='Summer School Legal Tech in Berlin'
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Stephan Breidenbach
-  pic: sttephan
-  position: Mitveranstalter und Dozent
-  social:
-    - title: twitter
-      url: https://twitter.com/stebreidenbach/
-    - title: linkedin
-      url: https://www.linkedin.com/in/stephan-breidenbach-04b678111/
-
 - name: Florian Glatz
   pic: florian
   position: Mitveranstalter und Dozent
@@ -27,6 +18,14 @@ people:
       url: https://twitter.com/heckerhut
     - title: linkedin
       url: https://www.linkedin.com/in/florianglatz/
+- name: Stephan Breidenbach
+  pic: stephan
+  position: Mitveranstalter und Dozent
+  social:
+    - title: twitter
+      url: https://twitter.com/stebreidenbach/
+    - title: linkedin
+      url: https://www.linkedin.com/in/stephan-breidenbach-04b678111/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
