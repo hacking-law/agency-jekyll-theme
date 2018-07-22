@@ -253,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand .logo {
         position: relative;
-        top: -2em;
+        top: -1.8em;
     }
 
     .navbar-default .navbar-nav>.active>a {
