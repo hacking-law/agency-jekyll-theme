@@ -234,6 +234,12 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+@media(max-width:768px) {
+    .navbar .logo {
+        display: none;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -277,6 +283,12 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media(max-width:768px) {
+    header {
+        width: 110%;
+    }
 }
 
 header .intro-text {
